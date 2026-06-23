@@ -1,1 +1,53 @@
-/* Sham Cinema Styles */
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma, Arial, sans-serif;
+    background: #0f172a;
+    color: #ffffff;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    background: #111827;
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 30px;
+}
+
+.logo h1 {
+    font-size: 32px;
+}
+
+.logo span {
+    display: block;
+    font-size: 14px;
+    color: #cbd5e1;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.search-btn {
+    font-size: 24px;
+    cursor: pointer;
+}
